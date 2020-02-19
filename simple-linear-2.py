@@ -6,6 +6,16 @@ Created on Wed Feb 19 13:05:47 2019
 @author: Calvin
 """
 
+####ASSUMPTION OF LINEAR REGRESSION
+#1. LINEARITY
+#2. HOMOSCEDACSTICITY
+#3. MULTIVARIATE NORMALITY
+#4. INDEPENDENCE OF ERRORS
+#5. LACK OF MULTICOLLINEARITY
+####check the assumption to be true
+
+
+
 
 #===========================================================================================================================
 #========================================== PREDICTING WEIGHT GIVEN THE HEIGHT==============================================
