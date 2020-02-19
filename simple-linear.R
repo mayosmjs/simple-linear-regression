@@ -20,10 +20,10 @@ modelSummary <- summary(linearMod)
 # model coefficients
 modelCoeffs <- modelSummary$coefficients  
 
-# get beta estimate for speed
+# get beta estimate for X
 beta.estimate <- modelCoeffs["x", "Estimate"]
 
-# get std.error for speed  
+# get std.error for X  
 std.error <- modelCoeffs["x", "Std. Error"]  
 
 
@@ -37,7 +37,7 @@ predict(linearMod,t_pred)
 
 
 
-###################### TRAINING SET  TEST SET
+###################### TRAINING SET  TEST SET##################
 
 # Create Training and Test data -
 set.seed(100)  # setting seed to reproduce results of random sampling
